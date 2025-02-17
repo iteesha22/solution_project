@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrisaarthi</title>
+
+    <meta name="project" content="Substainability based">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- <script src="script.js"></script> -->
+
+</head>
+<body>
+    <header> 
+
+        <div class="menu_bar"> <div class="logo"> AgriSaarthi</div>
+      <div class="account">
+ <div class="icon"> <div class="account_icon"><a href="profile/account.html"> <i class="fa-solid fa-user user"></i>  </div>  </a>
+ <!-- <div class="acc_msg"> <strong> Acccount </strong></div> -->
+</div>
+      </div>     
+        </div>
+       
+   </header> 
+    
+    
+    
+    <!-- hero_section -->
+     <div class="hero-sec">
+                   <!-- agri_image -->
+                   
+                    
+
+<!-- hero message -->
+    <div class="hero-options"> 
+       
+
+     <!-- menu_bar_options  -->
+    
+              <div class="opt1 opt">  <a href="index.html"> HOME </a>   
+                           <div class="opt2 opt">  <a href="index1.html"> ABOUT </a>  </div>
+                                    <div class="opt3 opt">   <a href="services.html">  SERVICES </a>   </div>       
+                            <div class="opt4 opt">  <a href="testimonals.html">  TESTIMONALS </a>   </div>
+                        <div class="opt5 opt">  <a href="contact/contact.html">  CONTACT </a>  </div>  
+                        
+                        
+     <!-- THEME CHANGEr--> 
+         <div class="opt6 opt">        
+                  <main>  
+                      <button id="theme-toggle"> <i class="fa-solid fa-moon"></i>
+                        </button>
+                   </main>  
+            </div></div>
+
+            <div class="hero-message" >  
+                <!-- search bar -->
+                <select class="search-select"> 
+                    <option> All</option>   
+                      <option> All categories</option>   <option>  skills</option> <option>  Devices</option> 
+                        <option> category</option> 
+                           
+                         </select>
+
+                <input placeholder="&nbsp;&nbsp; SEARCH" class="search-input"> 
+                <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                
+                       </div> 
+
+
+                <!-- <p> You are on amazon_clone.com. You can also shop on Amazon India for millions of products with fast local delivery.  
+                                   <a href="https://www.amazon.in/"> Click here to go to amazon.in</a>   </p> -->
+                       
+
+                                </div>
+         
+        
+       
+            </div>
+
+       
+         <!-- SCRIPT SECTION -->
+
+<script>
+    const themeToggle = document.getElementById('theme-toggle');
+
+    // Check for saved theme in localStorage
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme) {
+        document.body.setAttribute('data-theme', savedTheme);
+    }
+
+    themeToggle.addEventListener('click', () => {
+        const currentTheme = document.body.getAttribute('data-theme');
+        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+        document.body.setAttribute('data-theme', newTheme);
+
+        // Save theme to localStorage
+        localStorage.setItem('theme', newTheme);
+    });
+</script>
+
+</div></div>
+
+
+<div class="sec_3">
+    
+    <div class="box1"> 
+       <h1> Join the <br> Green <br> Revolution  ________    </h1>  <label for="msg" id="msg"> Substainable Solutions for a Better Tomorrow  </label></p> </div>
+       <div class="box2"> 
+      
+   <!-- earth image -->
+
+        <div class="box2_msg">  
+            <marquee> Navigate Substainability with precision &nbsp; &nbsp; &nbsp; &nbsp;
+                Track Your Impact, Sustainably  &nbsp; &nbsp; &nbsp; &nbsp;Navigate Substainability with precision &nbsp; &nbsp; &nbsp; &nbsp;
+      </marquee> 
+               </div>
+         </div>
+         
+        </div>
+    </div> 
+   
+</div>    
+
+<!-- 
+<div class="sec_4">
+<div class="info"> -->
+    <section class="services">
+        <div class="container">
+           
+            <div class="service-item1">
+  <img src="info.jpg">
+            </div>
+            <div class="service-item2">
+                OUR HAPPY FAMILIES
+                        </div>
+           
+           
+
+       <div class="service-item1">
+                <img src="images/info2.jpg">
+        </div>
+        
+
+        <div class="service-item3">
+            <img src="images/info3.jpg">
+    </div>
+    
+
+        </div>
+    </section>
+
+
+<div class="test"> <h2>Testimonals<h2>
+    <div class="test">
+        <!-- <button id="ai"> <a href="https://1501-134-185-82-107.ngrok-free.app/?">FarmX</a></i>
+    </button>  -->
+</div>
+
+</div>
+
+</body>
+<!-- last_section -->
+
+<section class="contact">
+    <div class="container">
+       <img src="images/suggestions.jpg"></div>
+
+       <div class="suggestion_send">
+        <form action="#">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="4" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<!-- footer -->
+
+<footer>
+    <p>&copy; 2025 Easy Solutions. All rights reserved.</p>
+</footer>
+
+    
+</body>
+</html>
+
