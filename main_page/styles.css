@@ -6,12 +6,14 @@
 .header {
     height: 79.2px;
     display: flex;
+   
 
 }
 
 .menu_bar {
     height: 79.2px;
-    background-color: #04471c;
+    background-color: #0c682c;
+    /* background-color: #2a8f43; */
     color: white;
     display: flex;
 }
@@ -565,9 +567,53 @@ border-bottom-right-radius: 25px;
    
 }
 
+/* AI chatbot support */
+
+.ai-support-button {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: #1d714a;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 69.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+
+.chat-box {
+    display: none;
+    position: fixed;
+    right: 20px;
+    bottom: 80px;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    
+}
+.chat-header {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+
+
 /* Footer */
 footer {
-    background-color: #04471c;
+    background-color: #0c682c;
     /* background-image: url("images/footer.png"); */
     color: black;
     padding: 20px 0;

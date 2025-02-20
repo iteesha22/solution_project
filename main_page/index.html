@@ -43,7 +43,7 @@
     
               <div class="opt1 opt">  <a href="index.html"> HOME </a>   
                            <div class="opt2 opt">  <a href="index1.html"> ABOUT </a>  </div>
-                                    <div class="opt3 opt">   <a href="services.html">  SERVICES </a>   </div>       
+                                    <div class="opt3 opt">   <a href="services/services.html">  SERVICES </a>   </div>       
                             <div class="opt4 opt">  <a href="testimonals.html">  TESTIMONALS </a>   </div>
                         <div class="opt5 opt">  <a href="contact/contact.html">  CONTACT </a>  </div>  
                         
@@ -134,7 +134,7 @@
         <div class="container">
            
             <div class="service-item1">
-  <img src="info.jpg">
+  <img src="images/info.png">
             </div>
             <div class="service-item2">
                 OUR HAPPY FAMILIES
@@ -143,12 +143,12 @@
            
 
        <div class="service-item1">
-                <img src="images/info2.jpg">
+                <img src="images/info2.png">
         </div>
         
 
         <div class="service-item3">
-            <img src="images/info3.jpg">
+            <img src="images/info3.png">
     </div>
     
 
@@ -180,6 +180,26 @@
         </form>
     </div>
 </section>
+
+<!-- AI chat support -->
+
+ <!-- Chat Button -->
+ <button class="ai-support-button" onclick="toggleChat()"><i class="fa-regular fa-comment-dots"></i></button>
+ <div class="chat-box" id="chatBox">
+     <div class="chat-header">AI Support</div>
+ </div>
+
+<!-- Chat Window -->
+<div class="chat-box" id="chatBox">
+    <div class="chat-header">
+        Chat Support
+        <span class="close-btn" onclick="toggleChat()">×</span>
+    </div>
+    <div class="chat-body">
+        <p>Welcome! How can we help you?</p>
+        <input type="text" placeholder="Type a message..." class="chat-input">
+    </div>
+</div>
 
 <!-- footer -->
 
