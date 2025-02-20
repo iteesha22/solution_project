@@ -92,7 +92,8 @@
 /* HERO SECTION */
 
 .hero-sec {
-   background-image: linear-gradient(to bottom, #25a244, #6ede8a, #ffff5c,#92e6a7 );
+   background-image: linear-gradient(to bottom, #25a244, #d8d85e, #92e6a7 );
+  
    height: 660px;
    background-size: cover;
    display: flex;
@@ -490,6 +491,7 @@ border-bottom-right-radius: 25px;
     outline: none;
     border-color: #555;
     box-shadow: 0 12px 12px rgba(0, 0, 0, 0.2);
+    
    
 }
 
@@ -503,7 +505,7 @@ border-bottom-right-radius: 25px;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
-    margin-left: 82%;
+    margin-left: 1200px;
 }
 
 .contact form button:hover {
