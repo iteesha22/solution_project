@@ -100,9 +100,9 @@ h2::after {
     margin-top: 0px;
     padding: 40px 0;
     background-image: linear-gradient(to right, #d3fade, #98dda2, #52b788 );
-    
+    display: flex;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-    height: 500px;
+    height: 550px;
    
 
 
